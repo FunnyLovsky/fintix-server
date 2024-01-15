@@ -1,0 +1,16 @@
+{
+    "compilerOptions": {
+        "target": "es2020" /* Версия ECMAScript для которой будет компилироваться код. */,
+        "module": "commonjs" /* Формат модуля (CommonJS, AMD, UMD, System, ES2015, ESNext и др.) */,
+        "outDir": "./build" /* Каталог для выходных файлов компилятора. */,
+        "rootDir": "./src" /* Каталог, содержащий исходный код TypeScript. */,
+        "strict": true /* Включает все строгие проверки. */,
+        "esModuleInterop": true /* Разрешает импорт модулей в стиле CommonJS с использованием оператора `import`. */,
+        "skipLibCheck": true /* Пропускать проверку объявлений файлов типов. */,
+        "forceConsistentCasingInFileNames": true /* Соблюдение однородности регистра имен файлов. */
+    },
+    "include": [
+        "src/**/*.ts" /* Включить только файлы с расширением .ts внутри каталога src и его подкаталогов. */
+    ],
+    "exclude": ["node_modules" /* Исключить каталог node_modules. */]
+}
